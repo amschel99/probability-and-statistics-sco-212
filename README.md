@@ -1,6 +1,6 @@
 # probability-and-statistics-sco-212
 Notes on probability theory: https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo
- A probablistic model is a mathematicle construction which is comprised of:
+ A probablistic model is a mathematical construction which is comprised of:
  
  1. An experiment- something with a well defined outcome.
  2. A sample space - which is a set of all the possible outcomes of an experiment.
@@ -32,6 +32,20 @@ numberOfOutcomes= sizeof(Possible_outcomes)/sizeof(string);
  
  sorry for the codinng jargon
  ```
+ This definition of probability makes 2 faulty assumptions.
+ 1. all outcomes are equally likely
+ 2. there is a finite sample space.
+ 
+ ## Multiplication rule
+ For independent  events, p(A and B)= P(A) * P(B)
+
+For dependent events p(A and B)=P(A) * p(B |A)
+
+e.g drawing out A and King from 52 cards where 4 are As and 4 are kings
+
+4/52 *4/51= 1/167.
+We have to minus 1 from 52
+
  
 
  
